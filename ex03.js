@@ -1,9 +1,11 @@
-var greetMe = function(){
-  console.log("Hi Tony!");
+// Your Javascript Code Goes Here
+let name,age;
+var person ={
+    name,age,
+    printInfo(){
+        console.log(`hello!I'm ${this.name},${age} years old!`);
+    }
 }
-greetMe();
-greetPJ = () => console.log("Hi PJ!");
-greetPJ();
-
-greetYou=name=>console.log("hi"+name+"!");
-greetYou('pairjuju');
+person.name='pairjuju';
+person.age=21;
+person.printInfo();
